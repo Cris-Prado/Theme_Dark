@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.acender{
+    background-color: white;
+    transition: all 0.7s;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 70px;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.botao.acender{
+    background-color: black;
+}
+
+.botao.acender .lampada{
+    color: rgb(255, 217, 5);
+}
+.lampada{
+    font-size: 35px;
+}
+
+.check-luz{
+    display: none;
+}
