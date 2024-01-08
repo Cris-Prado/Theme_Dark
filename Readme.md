@@ -11,11 +11,11 @@
 - <a href="#-pessoas-Autorais">Pessoas Autorais</a>
 
 ## Funcionalidaes do Projeto
--[x] Lampada
+- [x] Lampada
 
--[x] Temas
+- [x] Temas
 
--[x] Interação
+- [x] Interação
 
 ## Layout
 ### Botão antes de acionar
